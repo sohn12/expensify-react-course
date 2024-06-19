@@ -13,6 +13,8 @@ import LoadingPage from "./components/LoadingPage";
 
 const store = configureStore();
 
+
+
 const jsx = (
   <Provider store={store}>
     <AppRouter />
