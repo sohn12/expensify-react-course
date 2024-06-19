@@ -13,7 +13,7 @@ import LoadingPage from "./components/LoadingPage";
 
 const store = configureStore();
 
-
+console.log(store);
 
 const jsx = (
   <Provider store={store}>
